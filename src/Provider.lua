@@ -1,5 +1,4 @@
-local TS = _G[script]
-local React = TS.import(script, TS.getModule(script, "@rbxts", "RoactTS"))
+local React = require(game:GetService("ReplicatedStorage").rbxts_include.node_modules["@rbxts"].RoactTS)
 local Context = require(script.Parent.Context)
 
 local e = React.createElement

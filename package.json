@@ -1,0 +1,19 @@
+{
+  "name": "@rbxts/react-rodux-hooks",
+  "version": "0.3.1",
+  "author": "chemiclast",
+  "license": "MIT",
+  "main": "./src/init.lua",
+  "types": "src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chemiclast/rodux-hooks-ts"
+  },
+  "peerDependencies": {
+    "@rbxts/react-ts": "^0.9.0",
+    "@rbxts/rodux": "^3.0.0-ts.3"
+  },
+  "devDependencies": {
+    "typescript": "=4.9.5"
+  }
+}

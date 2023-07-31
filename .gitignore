@@ -4,3 +4,5 @@ roblox.toml
 sourcemap.json
 wally.lock
 *.rbxm
+node_modules
+.idea

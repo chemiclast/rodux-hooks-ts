@@ -1,4 +1,5 @@
-local React = require(script.Parent.Parent.React)
+local React = local TS = _G[script]
+TS.import(script, TS.getModule(script, "@rbxts", "RoactTS"))
 
 local function useCustomDispatch(context)
 	local store = React.useContext(context)
